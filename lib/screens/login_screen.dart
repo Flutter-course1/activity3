@@ -1,8 +1,8 @@
 import 'package:activity3/widgets/splash_widget.dart';
 import 'package:flutter/material.dart';
 
-class LoginWidget extends StatelessWidget {
-  const LoginWidget({
+class LoginScreen extends StatelessWidget {
+  const LoginScreen({
     super.key,
   });
 
