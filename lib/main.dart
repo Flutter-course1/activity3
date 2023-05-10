@@ -1,4 +1,4 @@
-import 'package:activity3/widgets/splash_widget.dart';
+import 'package:activity3/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,9 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        body: SplashWidget()
-      ),
+      home: SplashScreen()
     );
   }
 }
