@@ -1,6 +1,6 @@
 {
-    "name": "app",
-    "short_name": "app",
+    "name": "activity3",
+    "short_name": "activity3",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
