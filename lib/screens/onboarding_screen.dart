@@ -25,7 +25,7 @@ class OnboardingScreen extends StatelessWidget {
             )),
           ),
           Padding(
-            padding: const EdgeInsets.only(top: 83),
+            padding: const EdgeInsets.only(top: 120),
             child: Container(
               decoration: const BoxDecoration(
                 color: Colors.white,
@@ -45,7 +45,7 @@ class OnboardingScreen extends StatelessWidget {
             ),
           ),
           Padding(
-              padding: const EdgeInsets.only(top: 220, left: 20),
+              padding: const EdgeInsets.only(top: 270, left: 20),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -80,7 +80,7 @@ class OnboardingScreen extends StatelessWidget {
                       text: "Cuckoo will help you to set the price tracker"),
                   const ListItemWidget(text: "Cuckoo is faster smart & Sweet"),
                   const SizedBox(
-                    height: 30,
+                    height: 35,
                   ),
                   Text(
                     'Enter your Mobile Number',
@@ -90,7 +90,7 @@ class OnboardingScreen extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(
-                    height: 10,
+                    height: 15,
                   ),
                   Row(
                     children: [
